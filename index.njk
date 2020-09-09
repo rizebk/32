@@ -1,0 +1,18 @@
+---
+title: Stefan HTML GOD!
+layout: layouts/home.njk
+description: Stefan the GOD of HTML5
+image: https://upload.wikimedia.org/wikipedia/en/a/a9/Example.jpg
+date: Last Modified
+---
+
+<p>
+  Eu sunt Dumnezeul HTML-ului, ma puteti contacta pe
+  <a href="https://www.instagram.com/ciorbastefan/">Instagram</a>.
+</p>
+
+<div id="posts">
+  <h2>Posts</h2>
+  {% set postslist = collections.posts %}
+  {% include "postslist.njk" %}
+</div>
